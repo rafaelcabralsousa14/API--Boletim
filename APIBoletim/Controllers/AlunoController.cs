@@ -32,8 +32,9 @@ namespace APIBoletim.Controllers
 
         // POST api/<AlunoController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public Aluno Post([FromBody] Aluno a)
         {
+            return repo.Cadastrar(a);
         }
 
         // PUT api/<AlunoController>/5
