@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API-Boletim\\APIBoletim\\APIBoletim\\APIBoletim.csproj": {}
+    "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API---Boletim\\APIBoletim\\APIBoletim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API-Boletim\\APIBoletim\\APIBoletim\\APIBoletim.csproj": {
+    "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API---Boletim\\APIBoletim\\APIBoletim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API-Boletim\\APIBoletim\\APIBoletim\\APIBoletim.csproj",
+        "projectUniqueName": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API---Boletim\\APIBoletim\\APIBoletim.csproj",
         "projectName": "APIBoletim",
-        "projectPath": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API-Boletim\\APIBoletim\\APIBoletim\\APIBoletim.csproj",
+        "projectPath": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API---Boletim\\APIBoletim\\APIBoletim.csproj",
         "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API-Boletim\\APIBoletim\\APIBoletim\\obj\\",
+        "outputPath": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API---Boletim\\APIBoletim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "obmBGMB2CEhE9iuFNQdmz7O2diu4V+rgiaN9xoncqvno9AyVmYtqKS0bOToJwBBgGYhnMVc5esAKs3mfSr8T7g==",
+  "dgSpecHash": "ZX8bUD7INkNv1fGIJowgaqfBc7ygPZe38ZW91J30OtIeL+PBhDaIj1CCbHcnixja2P+WR26o8dofP45Aeo+Cdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API-Boletim\\APIBoletim\\APIBoletim\\APIBoletim.csproj",
+  "projectFilePath": "C:\\Users\\rafac\\OneDrive\\Documentos\\SENAI\\API---Boletim\\APIBoletim\\APIBoletim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafac\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rafac\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
