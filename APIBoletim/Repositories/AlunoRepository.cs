@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Connections.Features;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Security.Principal;
 using System.Threading.Tasks;
@@ -17,9 +18,24 @@ namespace APIBoletim.Repositories
 
         SqlCommand cmd = new SqlCommand();
 
-        public Aluno Alterar(Aluno a)
+        public Aluno Alterar(int id, Aluno a)
         {
-            throw new NotImplementedException();
+            cmd.Connection = conexao.Conectar();
+
+            cmd.CommandText = "UPDATE Aluno SET" +
+                "Nome = @nome" +
+                "RA = @ra" +
+                "Idade = @idade WHERE IdAluno = @id";
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@nome", a.Nome);
+            cmd.Parameters.AddWithValue("@ra", a.RA);
+            cmd.Parameters.AddWithValue("@idade", a.Idade);
+
+            cmd.ExecuteNonQuery();
+
+            conexao.Desconectar();
+
+            return a;
         }
 
         public Aluno BuscarPorID(int id)
@@ -58,16 +74,23 @@ namespace APIBoletim.Repositories
             cmd.Parameters.AddWithValue("@nome", a.Nome);
             cmd.Parameters.AddWithValue("@ra", a.RA);
             cmd.Parameters.AddWithValue("@idade", a.Idade);
-
+            
             cmd.ExecuteNonQuery();
             conexao.Desconectar();
 
             return a;
         }
 
-        public Aluno Excluir(Aluno a)
+        public void Excluir(int id)
         {
-            throw new NotImplementedException();
+            cmd.Connection = conexao.Conectar();
+
+            cmd.CommandText = "DELETE FROM Aluno WHERE IdAluno = @id";
+            cmd.Parameters.AddWithValue("@id", id);
+
+            cmd.ExecuteNonQuery();
+
+            conexao.Desconectar();
         }
 
         public List<Aluno> ListarTodos()
